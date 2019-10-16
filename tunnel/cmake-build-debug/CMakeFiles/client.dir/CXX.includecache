@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tim/School/ph387/tunnel_test/client.cpp
+iostream
+-
+boost/asio.hpp
+-
+client.hpp
+/home/tim/School/ph387/tunnel_test/client.hpp
+
+/home/tim/School/ph387/tunnel_test/client.hpp
+iostream
+-
+boost/asio.hpp
+-
+boost/enable_shared_from_this.hpp
+-
+

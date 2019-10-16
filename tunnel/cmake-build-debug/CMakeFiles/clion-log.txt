@@ -1,0 +1,4 @@
+/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" /home/tim/School/ph387/tunnel_test
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tim/School/ph387/tunnel_test/cmake-build-debug

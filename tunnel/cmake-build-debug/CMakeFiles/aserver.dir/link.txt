@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -g   CMakeFiles/aserver.dir/aserver.cpp.o  -o aserver -pthread 

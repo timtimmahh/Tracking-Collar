@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libzt_pic.a  CMakeFiles/zt_pic.dir/src/Controls.cpp.o CMakeFiles/zt_pic.dir/src/Intercept.cpp.o CMakeFiles/zt_pic.dir/src/Service.cpp.o CMakeFiles/zt_pic.dir/src/Sockets.cpp.o CMakeFiles/zt_pic.dir/src/VirtualTap.cpp.o CMakeFiles/zt_pic.dir/src/lwipDriver.cpp.o CMakeFiles/zt_pic.dir/src/lwipRawDriver.cpp.o
+/usr/bin/ranlib lib/libzt_pic.a

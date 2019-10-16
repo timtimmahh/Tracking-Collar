@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libnatpmp.a  CMakeFiles/libnatpmp_obj.dir/ext/ZeroTierOne/ext/libnatpmp/getgateway.c.o CMakeFiles/libnatpmp_obj.dir/ext/ZeroTierOne/ext/libnatpmp/natpmp.c.o
+/usr/bin/ranlib lib/libnatpmp.a

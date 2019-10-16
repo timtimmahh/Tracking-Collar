@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -g   CMakeFiles/ztnet.dir/main.cpp.o  -o ztnet ../include/libzt/lib/release/linux-x86_64/libzt.a ../include/libzt/lib/release/linux-x86_64/libztcore.a -pthread 
