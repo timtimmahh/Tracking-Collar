@@ -1,0 +1,3 @@
+[submodule "ztnet/include/libzt"]
+	path = ztnet/include/libzt
+	url = https://github.com/zerotier/libzt.git
