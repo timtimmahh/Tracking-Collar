@@ -1,0 +1,2157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="zt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\include\;CMake Files\include\libzt\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zt-shared">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libzt.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zt-shared"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zt-shared/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libzt.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zt-shared/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lwip">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/liblwip.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 lwip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lwip/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/liblwip.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 lwip/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniupnpc">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libminiupnpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 miniupnpc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniupnpc/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libminiupnpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 miniupnpc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="natpmp">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libnatpmp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 natpmp"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="natpmp/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libnatpmp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 natpmp/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libzt_obj">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/libzt_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 libzt_obj"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libzt_obj/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/libzt_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 libzt_obj/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zto_pic">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libzto_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zto_pic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zto_pic/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libzto_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zto_pic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniupnpc_pic">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libminiupnpc_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMACOSX"/>
+					<Add option="-DZT_USE_MINIUPNPC"/>
+					<Add option="-DMINIUPNP_STATICLIB"/>
+					<Add option="-D_DARWIN_C_SOURCE"/>
+					<Add option="-DMINIUPNPC_SET_SOCKET_TIMEOUT"/>
+					<Add option="-DMINIUPNPC_GET_SRC_ADDR"/>
+					<Add option="-D_BSD_SOURCE"/>
+					<Add option="-D_DEFAULT_SOURCE"/>
+					<Add option="-DMINIUPNPC_VERSION_STRING=&quot;2.0&quot;"/>
+					<Add option="-DUPNP_VERSION_STRING=&quot;UPnP/1.1&quot;"/>
+					<Add option="-DENABLE_STRNATPMPERR"/>
+					<Add option="-DOS_STRING=&quot;Darwin/15.0.0&quot;"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 miniupnpc_pic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniupnpc_pic/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libminiupnpc_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DMACOSX"/>
+					<Add option="-DZT_USE_MINIUPNPC"/>
+					<Add option="-DMINIUPNP_STATICLIB"/>
+					<Add option="-D_DARWIN_C_SOURCE"/>
+					<Add option="-DMINIUPNPC_SET_SOCKET_TIMEOUT"/>
+					<Add option="-DMINIUPNPC_GET_SRC_ADDR"/>
+					<Add option="-D_BSD_SOURCE"/>
+					<Add option="-D_DEFAULT_SOURCE"/>
+					<Add option="-DMINIUPNPC_VERSION_STRING=&quot;2.0&quot;"/>
+					<Add option="-DUPNP_VERSION_STRING=&quot;UPnP/1.1&quot;"/>
+					<Add option="-DENABLE_STRNATPMPERR"/>
+					<Add option="-DOS_STRING=&quot;Darwin/15.0.0&quot;"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 miniupnpc_pic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lwip_obj">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/lwip_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 lwip_obj"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lwip_obj/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/lwip_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 lwip_obj/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniupnpc_obj">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/miniupnpc_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZT_USE_MINIUPNPC"/>
+					<Add option="-DMINIUPNP_STATICLIB"/>
+					<Add option="-D_DARWIN_C_SOURCE"/>
+					<Add option="-DMINIUPNPC_SET_SOCKET_TIMEOUT"/>
+					<Add option="-DMINIUPNPC_GET_SRC_ADDR"/>
+					<Add option="-D_BSD_SOURCE"/>
+					<Add option="-D_DEFAULT_SOURCE"/>
+					<Add option="-DMINIUPNPC_VERSION_STRING=&quot;2.0&quot;"/>
+					<Add option="-DUPNP_VERSION_STRING=&quot;UPnP/1.1&quot;"/>
+					<Add option="-DENABLE_STRNATPMPERR"/>
+					<Add option="-DOS_STRING=&quot;Darwin/15.0.0&quot;"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 miniupnpc_obj"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="miniupnpc_obj/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/miniupnpc_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DZT_USE_MINIUPNPC"/>
+					<Add option="-DMINIUPNP_STATICLIB"/>
+					<Add option="-D_DARWIN_C_SOURCE"/>
+					<Add option="-DMINIUPNPC_SET_SOCKET_TIMEOUT"/>
+					<Add option="-DMINIUPNPC_GET_SRC_ADDR"/>
+					<Add option="-D_BSD_SOURCE"/>
+					<Add option="-D_DEFAULT_SOURCE"/>
+					<Add option="-DMINIUPNPC_VERSION_STRING=&quot;2.0&quot;"/>
+					<Add option="-DUPNP_VERSION_STRING=&quot;UPnP/1.1&quot;"/>
+					<Add option="-DENABLE_STRNATPMPERR"/>
+					<Add option="-DOS_STRING=&quot;Darwin/15.0.0&quot;"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 miniupnpc_obj/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zt_pic">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libzt_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zt_pic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zt_pic/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libzt_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zt_pic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zto_obj">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/zto_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zto_obj"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zto_obj/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/zto_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zto_obj/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="natpmp_pic">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libnatpmp_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 natpmp_pic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="natpmp_pic/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libnatpmp_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 natpmp_pic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zt-static">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libzt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zt-static"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zt-static/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libzt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 zt-static/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libnatpmp_obj">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libnatpmp_obj.dir/libnatpmp_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 libnatpmp_obj"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libnatpmp_obj/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libnatpmp_obj.dir/libnatpmp_obj.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 libnatpmp_obj/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lwip_pic">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/liblwip_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 lwip_pic"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lwip_pic/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/liblwip_pic.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 lwip_pic/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ztcore">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libztcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 ztcore"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ztcore/fast">
+				<Option output="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/lib/libztcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/src"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/include"/>
+					<Add directory="/home/tim/Projects/ztnet/include/libzt/ext/concurrentqueue"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 ztcore/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libnatpmp_obj.dir/ext/ZeroTierOne/ext/libnatpmp/getgateway.c.o">
+			<Option target="natpmp"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libnatpmp_obj.dir/ext/ZeroTierOne/ext/libnatpmp/natpmp.c.o">
+			<Option target="natpmp"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/src/Controls.cpp.o">
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/src/Intercept.cpp.o">
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/src/Service.cpp.o">
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/src/Sockets.cpp.o">
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/src/VirtualTap.cpp.o">
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/src/lwipDriver.cpp.o">
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/libzt_obj.dir/src/lwipRawDriver.cpp.o">
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip-contrib/ports/unix/port/sys_arch.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/api_lib.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/api_msg.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/err.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/if_api.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/netbuf.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/netdb.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/netifapi.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/sockets.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/api/tcpip.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/altcp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/altcp_alloc.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/altcp_tcp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/def.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/dns.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/inet_chksum.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/init.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ip.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv4/autoip.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv4/dhcp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv4/etharp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv4/icmp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv4/igmp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv4/ip4.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv4/ip4_addr.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv4/ip4_frag.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/dhcp6.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/ethip6.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/icmp6.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/inet6.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/ip6.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/ip6_addr.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/ip6_frag.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/mld6.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/ipv6/nd6.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/mem.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/memp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/netif.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/pbuf.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/raw.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/stats.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/sys.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/tcp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/tcp_in.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/tcp_out.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/timeouts.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/core/udp.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/netif/bridgeif.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/netif/bridgeif_fdb.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/netif/ethernet.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/netif/lowpan6.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/netif/lowpan6_ble.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/netif/lowpan6_common.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/lwip_obj.dir/ext/lwip/src/netif/zepif.c.o">
+			<Option target="lwip"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/connecthostport.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/igd_desc_parse.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/minisoap.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/minissdpc.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/miniupnpc.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/miniwget.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/minixml.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/portlistingparse.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/receivedata.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/upnpcommands.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/upnpdev.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/upnperrors.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/miniupnpc_obj.dir/ext/ZeroTierOne/ext/miniupnpc/upnpreplyparse.c.o">
+			<Option target="miniupnpc"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/C25519.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Capability.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/CertificateOfMembership.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/CertificateOfOwnership.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Identity.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/IncomingPacket.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/InetAddress.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Membership.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Multicaster.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Network.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/NetworkConfig.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Node.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/OutboundMulticast.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Packet.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Path.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Peer.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Poly1305.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Revocation.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/SHA512.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Salsa20.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/SelfAwareness.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Switch.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Tag.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Topology.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Trace.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/node/Utils.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/osdep/ManagedRoute.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/osdep/OSUtils.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/cmake-build-debug/include/libzt/CMakeFiles/zto_obj.dir/ext/ZeroTierOne/osdep/PortMapper.cpp.o">
+			<Option target="zt-static"/>
+			<Option target="ztcore"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp/getgateway.c">
+			<Option target="natpmp_pic"/>
+			<Option target="libnatpmp_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp/getgateway.h">
+			<Option target="natpmp_pic"/>
+			<Option target="libnatpmp_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp/natpmp.c">
+			<Option target="natpmp_pic"/>
+			<Option target="libnatpmp_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/libnatpmp/natpmp.h">
+			<Option target="natpmp_pic"/>
+			<Option target="libnatpmp_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/connecthostport.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/connecthostport.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/igd_desc_parse.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/igd_desc_parse.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/minisoap.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/minisoap.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/minissdpc.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/minissdpc.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/miniupnpc.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/miniupnpc.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/miniwget.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/miniwget.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/minixml.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/minixml.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/portlistingparse.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/portlistingparse.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/receivedata.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/receivedata.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/upnpcommands.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/upnpcommands.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/upnpdev.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/upnpdev.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/upnperrors.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/upnperrors.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/upnpreplyparse.c">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/ext/miniupnpc/upnpreplyparse.h">
+			<Option target="miniupnpc_pic"/>
+			<Option target="miniupnpc_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/C25519.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/C25519.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Capability.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Capability.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/CertificateOfMembership.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/CertificateOfMembership.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/CertificateOfOwnership.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/CertificateOfOwnership.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Identity.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Identity.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/IncomingPacket.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/IncomingPacket.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/InetAddress.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/InetAddress.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Membership.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Membership.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Multicaster.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Multicaster.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Network.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Network.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/NetworkConfig.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/NetworkConfig.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Node.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Node.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/OutboundMulticast.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/OutboundMulticast.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Packet.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Packet.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Path.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Path.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Peer.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Peer.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Poly1305.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Poly1305.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Revocation.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Revocation.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/SHA512.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/SHA512.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Salsa20.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Salsa20.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/SelfAwareness.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/SelfAwareness.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Switch.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Switch.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Tag.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Tag.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Topology.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Topology.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Trace.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Trace.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Utils.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/node/Utils.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep/ManagedRoute.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep/ManagedRoute.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep/OSUtils.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep/OSUtils.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep/PortMapper.cpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/ZeroTierOne/osdep/PortMapper.hpp">
+			<Option target="zto_pic"/>
+			<Option target="zto_obj"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip-contrib/ports/unix/port/sys_arch.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/api_lib.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/api_msg.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/err.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/if_api.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/netbuf.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/netdb.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/netifapi.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/sockets.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/api/tcpip.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/altcp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/altcp_alloc.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/altcp_tcp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/def.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/dns.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/inet_chksum.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/init.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ip.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv4/autoip.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv4/dhcp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv4/etharp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv4/icmp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv4/igmp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv4/ip4.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv4/ip4_addr.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv4/ip4_frag.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/dhcp6.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/ethip6.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/icmp6.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/inet6.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/ip6.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/ip6_addr.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/ip6_frag.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/mld6.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/ipv6/nd6.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/mem.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/memp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/netif.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/pbuf.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/raw.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/stats.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/sys.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/tcp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/tcp_in.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/tcp_out.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/timeouts.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/core/udp.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/netif/bridgeif.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/netif/bridgeif_fdb.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/netif/ethernet.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/netif/lowpan6.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/netif/lowpan6_ble.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/netif/lowpan6_common.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/ext/lwip/src/netif/zepif.c">
+			<Option target="lwip_obj"/>
+			<Option target="lwip_pic"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/Controls.cpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/Controls.hpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/Intercept.cpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/Intercept.hpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/Service.cpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/Service.hpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/Sockets.cpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/VirtualTap.cpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/VirtualTap.hpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/lwipDriver.cpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/lwipDriver.hpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/lwipRawDriver.cpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/src/lwipRawDriver.hpp">
+			<Option target="zt-shared"/>
+			<Option target="libzt_obj"/>
+			<Option target="zt_pic"/>
+			<Option target="zt-static"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/tim/Projects/ztnet/include/libzt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\libzt\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

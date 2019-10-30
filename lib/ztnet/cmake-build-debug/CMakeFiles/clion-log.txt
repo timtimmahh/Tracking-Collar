@@ -1,0 +1,6 @@
+/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -G "CodeBlocks - Unix Makefiles" /home/tim/Projects/ztnet
+Includes are: 
+/home/tim/Projects/ztnet/include/libzt/include;/home/tim/Projects/ztnet/include/libzt/src/Controls.cpp;/home/tim/Projects/ztnet/include/libzt/src/Controls.hpp;/home/tim/Projects/ztnet/include/libzt/src/Debug.hpp;/home/tim/Projects/ztnet/include/libzt/src/Intercept.cpp;/home/tim/Projects/ztnet/include/libzt/src/Intercept.hpp;/home/tim/Projects/ztnet/include/libzt/src/Service.cpp;/home/tim/Projects/ztnet/include/libzt/src/Service.hpp;/home/tim/Projects/ztnet/include/libzt/src/Sockets.cpp;/home/tim/Projects/ztnet/include/libzt/src/VirtualTap.cpp;/home/tim/Projects/ztnet/include/libzt/src/VirtualTap.hpp;/home/tim/Projects/ztnet/include/libzt/src/lwipDriver.cpp;/home/tim/Projects/ztnet/include/libzt/src/lwipDriver.hpp;/home/tim/Projects/ztnet/include/libzt/src/lwipRawDriver.cpp;/home/tim/Projects/ztnet/include/libzt/src/lwipRawDriver.hpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/tim/Projects/ztnet/cmake-build-debug

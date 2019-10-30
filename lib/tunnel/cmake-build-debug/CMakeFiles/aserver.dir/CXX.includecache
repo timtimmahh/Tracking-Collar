@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tim/School/ph387/tunnel_test/AsyncTCP.hpp
+iostream
+-
+boost/asio.hpp
+-
+boost/bind.hpp
+-
+boost/enable_shared_from_this.hpp
+-
+
+/home/tim/School/ph387/tunnel_test/aserver.cpp
+AsyncTCP.hpp
+/home/tim/School/ph387/tunnel_test/AsyncTCP.hpp
+

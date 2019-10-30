@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="make" description="Makefile command" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="make" />
+      <option name="PARAMETERS" value="all" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Projects/ztnet/include/libzt" />
+    </exec>
+  </tool>
+</toolSet>
