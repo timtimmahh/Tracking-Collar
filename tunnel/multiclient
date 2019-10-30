@@ -1,9 +1,0 @@
-#!/bin/bash
-
-counter=0
-
-until [ $counter -gt 10 ]; do
-  ./client
-  ((counter+=1))
-done
-
